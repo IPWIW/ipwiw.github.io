@@ -29,7 +29,7 @@ class Building {
         return recipe.time.reciprocate().mul(overclock)
     }
     iconPath() {
-        return "images/" + this.name + ".png"
+        return "images/oof.jpg"
     }
 }
 

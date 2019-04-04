@@ -20,7 +20,7 @@ class Belt {
         this.rate = rate
     }
     iconPath() {
-        return "images/" + this.name + ".png"
+        return "images/下載.jpg"
     }
 }
 

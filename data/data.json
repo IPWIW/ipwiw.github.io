@@ -1,64 +1,64 @@
 {
     "belts": [
         {
-            "name": "Conveyor Belt",
+            "name": "輸送帶",
             "key_name": "belt1",
             "rate": 60
         },
         {
-            "name": "Conveyor Belt Mk.2",
+            "name": "2級輸送帶",
             "key_name": "belt2",
             "rate": 120
         },
         {
-            "name": "Conveyor Belt Mk.3",
+            "name": "3級輸送帶",
             "key_name": "belt3",
             "rate": 270
         },
         {
-            "name": "Conveyor Belt Mk.4",
+            "name": "4級輸送帶",
             "key_name": "belt4",
             "rate": 450
         }
     ],
     "buildings": [
         {
-            "name": "Constructor",
+            "name": "製造機",
             "key_name": "constructor",
             "category": "crafting1",
             "power": 4,
             "max": 1
         },
         {
-            "name": "Assembler",
+            "name": "組合機",
             "key_name": "assembler",
             "category": "crafting2",
             "power": 15,
             "max": 2
         },
         {
-            "name": "Manufacturer",
+            "name": "建造機",
             "key_name": "manufacturer",
             "category": "crafting3",
             "power": 55,
             "max": 4
         },
         {
-            "name": "Smelter",
+            "name": "鑄造機",
             "key_name": "smelter",
             "category": "smelting1",
             "power": 4,
             "max": 1
         },
         {
-            "name": "Foundry",
+            "name": "煉造機",
             "key_name": "foundry",
             "category": "smelting2",
             "power": 16,
             "max": 2
         },
         {
-            "name": "Oil Refinery",
+            "name": "煉油機",
             "key_name": "oil-refinery",
             "category": "refining",
             "power": 50,
@@ -67,21 +67,21 @@
     ],
     "miners": [
         {
-            "name": "Miner MK1",
+            "name": "1級採礦機",
             "key_name": "miner-mk1",
             "category": "mineral",
             "base_rate": 60,
             "power": 5
         },
         {
-            "name": "Miner MK2",
+            "name": "2級採礦機",
             "key_name": "miner-mk2",
             "category": "mineral",
             "base_rate": 120,
             "power": 12
         },
         {
-            "name": "Oil Pump",
+            "name": "油泵",
             "key_name": "oil-pump",
             "category": "oil",
             "base_rate": 120,
@@ -90,265 +90,265 @@
     ],
     "items": [
         {
-            "name": "Iron Ore",
+            "name": "鐵礦石",
             "key_name": "iron-ore",
             "tier": -1,
             "stack_size": 100
         },
         {
-            "name": "Copper Ore",
+            "name": "銅礦石",
             "key_name": "copper-ore",
             "tier": 0,
             "stack_size": 100
         },
         {
-            "name": "Coal",
+            "name": "炭",
             "key_name": "coal",
             "tier": 3,
             "stack_size": 100
         },
         {
-            "name": "Iron Ingot",
+            "name": "鐵錠",
             "key_name": "iron-ingot",
             "tier": -1,
             "stack_size": 100
         },
         {
-            "name": "Copper Ingot",
+            "name": "銅錠",
             "key_name": "copper-ingot",
             "tier": 0,
             "stack_size": 100
         },
         {
-            "name": "Steel Ingot",
+            "name": "鋼錠",
             "key_name": "steel-ingot",
             "tier": 4,
             "stack_size": 100
         },
         {
-            "name": "Iron Plate",
+            "name": "鐵板",
             "key_name": "iron-plate",
             "tier": -1,
             "stack_size": 100
         },
         {
-            "name": "Iron Rod",
+            "name": "鐵棒",
             "key_name": "iron-rod",
             "tier": -1,
             "stack_size": 100
         },
         {
-            "name": "Wire",
+            "name": "線",
             "key_name": "wire",
             "tier": 0,
             "stack_size": 500
         },
         {
-            "name": "Cable",
+            "name": "電纜",
             "key_name": "cable",
             "tier": 0,
             "stack_size": 100
         },
         {
-            "name": "Biomass",
+            "name": "生物質",
             "key_name": "biomass",
             "tier": 0,
             "stack_size": 200
         },
         {
-            "name": "Concrete",
+            "name": "混凝土",
             "key_name": "concrete",
             "tier": 0,
             "stack_size": 100
         },
         {
-            "name": "Leaves",
+            "name": "樹葉",
             "key_name": "leaves",
             "tier": -1,
             "stack_size": 500
         },
         {
-            "name": "Limestone",
+            "name": "石灰石",
             "key_name": "limestone",
             "tier": 0,
             "stack_size": 100
         },
         {
-            "name": "Screw",
+            "name": "螺絲",
             "key_name": "screw",
             "tier": 0,
             "stack_size": 500
         },
         {
-            "name": "Wood",
+            "name": "木材",
             "key_name": "wood",
             "tier": -1,
             "stack_size": 100
         },
         {
-            "name": "Alien Carapace",
+            "name": "外星生物甲殼",
             "key_name": "alien-carapace",
             "tier": -1,
             "stack_size": 100
         },
         {
-            "name": "Mycelia",
+            "name": "菌絲體",
             "key_name": "mycelia",
             "tier": -1,
             "stack_size": 200
         },
         {
-            "name": "Biofuel",
+            "name": "生物燃料",
             "key_name": "biofuel",
             "tier": 1,
             "stack_size": 200
         },
         {
-            "name": "Color Cartridge",
+            "name": "彩色彈藥",
             "key_name": "color-cartridge",
             "tier": 2,
             "stack_size": 100
         },
         {
-            "name": "Steel Beam",
+            "name": "鋼梁",
             "key_name": "steel-beam",
             "tier": 4,
             "stack_size": 100
         },
         {
-            "name": "Steel Pipe",
+            "name": "鋼管",
             "key_name": "steel-pipe",
             "tier": 4,
             "stack_size": 100
         },
         {
-            "name": "Reinforced Iron Plate",
+            "name": "強化鐵板",
             "key_name": "reinforced-iron-plate",
             "tier": 0,
             "stack_size": 100
         },
         {
-            "name": "Rotor",
+            "name": "轉子",
             "key_name": "rotor",
             "tier": 2,
             "stack_size": 100
         },
         {
-            "name": "Modular Frame",
+            "name": "模組框架",
             "key_name": "modular-frame",
             "tier": 2,
             "stack_size": 50
         },
         {
-            "name": "Encased Industrial Beam",
+            "name": "強化鋼梁",
             "key_name": "encased-industrial-beam",
             "tier": 4,
             "stack_size": 100
         },
         {
-            "name": "Stator",
+            "name": "定子",
             "key_name": "stator",
             "tier": 4,
             "stack_size": 100
         },
         {
-            "name": "Motor",
+            "name": "馬達",
             "key_name": "motor",
             "tier": 4,
             "stack_size": 50
         },
         {
-            "name": "Circuit Board",
+            "name": "電路板",
             "key_name": "circuit-board",
             "tier": 5,
             "stack_size": 100
         },
         {
-            "name": "Plastic",
+            "name": "塑膠",
             "key_name": "plastic",
             "tier": 5,
             "stack_size": 100
         },
         {
-            "name": "Crude Oil",
+            "name": "原油",
             "key_name": "crude-oil",
             "tier": 5,
             "stack_size": 100
         },
         {
-            "name": "Fuel",
+            "name": "燃料",
             "key_name": "fuel",
             "tier": 5,
             "stack_size": 100
         },
         {
-            "name": "Rubber",
+            "name": "橡膠",
             "key_name": "rubber",
             "tier": 5,
             "stack_size": 100
         },
         {
-            "name": "Heavy Modular Frame",
+            "name": "重型模組框架",
             "key_name": "heavy-modular-frame",
             "tier": 4,
             "stack_size": 100
         },
         {
-            "name": "Computer",
+            "name": "電腦",
             "key_name": "computer",
             "tier": 5,
             "stack_size": 100
         },
         {
-            "name": "Caterium Ore",
+            "name": "鎧礦石",
             "key_name": "caterium-ore",
             "tier": 3,
             "stack_size": 100
         },
         {
-            "name": "Caterium Ingot",
+            "name": "鎧錠",
             "key_name": "caterium-ingot",
             "tier": 3,
             "stack_size": 100
         },
         {
-            "name": "Quickwire",
+            "name": "快速線",
             "key_name": "quickwire",
             "tier": 3,
             "stack_size": 500
         },
         {
-            "name": "Supercomputer",
+            "name": "超級電腦",
             "key_name": "supercomputer",
             "tier": 5,
             "stack_size": 100
         },
         {
-            "name": "High-Speed Connector",
+            "name": "高速連接器",
             "key_name": "high-speed-connector",
             "tier": 5,
             "stack_size": 100
         },
         {
-            "name": "A.I. Limiter",
+            "name": "AI限制器",
             "key_name": "ai-limiter",
             "tier": 5,
             "stack_size": 100
         },
         {
-            "name": "Fabric",
+            "name": "布料",
             "key_name": "fabric",
             "tier": 1,
             "stack_size": 100
         },
         {
-            "name": "Filter",
+            "name": "濾材",
             "key_name": "filter",
             "tier": 6,
             "stack_size": 100
         },
         {
-            "name": "Flower Petals",
+            "name": "花瓣",
             "key_name": "flower-petals",
             "tier": -1,
             "stack_size": 200
@@ -356,7 +356,7 @@
     ],
     "recipes": [
         {
-            "name": "Iron Ingot",
+            "name": "鐵錠",
             "key_name": "iron-ingot",
             "category": "smelting1",
             "time": 2,
@@ -366,7 +366,7 @@
             "product": ["iron-ingot", 1]
         },
         {
-            "name": "Alternate: Iron Ingot Alloy",
+            "name": "替代:鐵錠合金",
             "key_name": "alt-iron-ingot",
             "category": "smelting2",
             "time": 4,
@@ -377,7 +377,7 @@
             "product": ["iron-ingot", 3]
         },
         {
-            "name": "Copper Ingot",
+            "name": "銅錠",
             "key_name": "copper-ingot",
             "category": "smelting1",
             "time": 2,
@@ -387,7 +387,7 @@
             "product": ["copper-ingot", 1]
         },
         {
-            "name": "Steel Ingot",
+            "name": "鋼錠",
             "key_name": "steel-ingot",
             "category": "smelting2",
             "time": 4,
@@ -398,7 +398,7 @@
             "product": ["steel-ingot", 2]
         },
         {
-            "name": "Alternate: Steel Ingot",
+            "name": "替代:鋼錠",
             "key_name": "alt-steel-ingot",
             "category": "smelting2",
             "time": 8,
@@ -409,7 +409,7 @@
             "product": ["steel-ingot", 6]
         },
         {
-            "name": "Iron Plate",
+            "name": "鐵板",
             "key_name": "iron-plate",
             "category": "crafting1",
             "time": 4,
@@ -419,7 +419,7 @@
             "product": ["iron-plate", 1]
         },
         {
-            "name": "Iron Rod",
+            "name": "鐵棒",
             "key_name": "iron-rod",
             "category": "crafting1",
             "time": 4,
@@ -429,7 +429,7 @@
             "product": ["iron-rod", 1]
         },
         {
-            "name": "Wire",
+            "name": "線",
             "key_name": "wire",
             "category": "crafting1",
             "time": 4,
@@ -439,7 +439,7 @@
             "product": ["wire", 3]
         },
         {
-            "name": "Alternate: Iron Wire",
+            "name": "替代:鐵線",
             "key_name": "alt-iron-wire",
             "category": "crafting1",
             "time": 8,
@@ -449,7 +449,7 @@
             "product": ["wire", 9]
         },
         {
-            "name": "Alternate: Caterium Wire",
+            "name": "替代:鎧線",
             "key_name": "alt-caterium-wire",
             "category": "crafting1",
             "time": 8,
@@ -459,7 +459,7 @@
             "product": ["wire", 9]
         },
         {
-            "name": "Cable",
+            "name": "電纜",
             "key_name": "cable",
             "category": "crafting1",
             "time": 4,
@@ -469,7 +469,7 @@
             "product": ["cable", 1]
         },
         {
-            "name": "Alternate: Rubber Cable",
+            "name": "替代:橡膠電纜",
             "key_name": "alt-cable",
             "category": "crafting2",
             "time": 8,
@@ -480,7 +480,7 @@
             "product": ["cable", 5]
         },
         {
-            "name": "Biomass",
+            "name": "生物質",
             "key_name": "biomass-from-leaves",
             "category": "crafting1",
             "time": 4,
@@ -490,7 +490,7 @@
             "product": ["biomass", 6]
         },
         {
-            "name": "Concrete",
+            "name": "混凝土",
             "key_name": "concrete",
             "category": "crafting1",
             "time": 4,
@@ -500,7 +500,7 @@
             "product": ["concrete", 1]
         },
         {
-            "name": "Screw",
+            "name": "螺絲",
             "key_name": "screw",
             "category": "crafting1",
             "time": 4,
@@ -510,7 +510,7 @@
             "product": ["screw", 6]
         },
         {
-            "name": "Alternate: Screw",
+            "name": "替代:螺絲",
             "key_name": "alt-screw",
             "category": "crafting1",
             "time": 8,
@@ -520,7 +520,7 @@
             "product": ["screw", 12]
         },
         {
-            "name": "Biomass",
+            "name": "生物質(木材)",
             "key_name": "biomass-from-wood",
             "category": "crafting1",
             "time": 4,
@@ -530,7 +530,7 @@
             "product": ["biomass", 25]
         },
         {
-            "name": "Biomass",
+            "name": "生物質(外星生物甲殼)",
             "key_name": "biomass-from-alien-carapace",
             "category": "crafting1",
             "time": 4,
@@ -540,7 +540,7 @@
             "product": ["biomass", 100]
         },
         {
-            "name": "Biomass",
+            "name": "生物質(菌絲體)",
             "key_name": "biomass-from-mycelia",
             "category": "crafting1",
             "time": 4,
@@ -550,7 +550,7 @@
             "product": ["biomass", 10]
         },
         {
-            "name": "Biofuel",
+            "name": "生物燃料",
             "key_name": "biofuel",
             "category": "crafting1",
             "time": 4,
@@ -560,7 +560,7 @@
             "product": ["biofuel", 2]
         },
         {
-            "name": "Color Cartridge",
+            "name": "彩色彈藥",
             "key_name": "color-cartridge",
             "category": "crafting1",
             "time": 40,
@@ -570,7 +570,7 @@
             "product": ["color-cartridge", 50]
         },
         {
-            "name": "Steel Beam",
+            "name": "鋼樑",
             "key_name": "steel-beam",
             "category": "crafting1",
             "time": 6,
@@ -580,7 +580,7 @@
             "product": ["steel-beam", 1]
         },
         {
-            "name": "Steel Pipe",
+            "name": "鋼管",
             "key_name": "steel-pipe",
             "category": "crafting1",
             "time": 4,
@@ -590,7 +590,7 @@
             "product": ["steel-pipe", 1]
         },
         {
-            "name": "Reinforced Iron Plate",
+            "name": "強化鐵板",
             "key_name": "reinforced-iron-plate",
             "category": "crafting2",
             "time": 12,
@@ -601,7 +601,7 @@
             "product": ["reinforced-iron-plate", 1]
         },
         {
-            "name": "Alternate: Reinforced Iron Plate",
+            "name": "替代:強化鐵板",
             "key_name": "alt-reinforced-iron-plate",
             "category": "crafting2",
             "time": 24,
@@ -612,7 +612,7 @@
             "product": ["reinforced-iron-plate", 3]
         },
         {
-            "name": "Alternate: Stitched Iron Plate",
+            "name": "替代:縫合鐵板",
             "key_name": "alt-stitched-iron-plate",
             "category": "crafting2",
             "time": 24,
@@ -623,7 +623,7 @@
             "product": ["reinforced-iron-plate", 3]
         },
         {
-            "name": "Rotor",
+            "name": "轉子",
             "key_name": "rotor",
             "category": "crafting2",
             "time": 10,
@@ -634,7 +634,7 @@
             "product": ["rotor", 1]
         },
         {
-            "name": "Alternate: Rotor",
+            "name": "替代:轉子",
             "key_name": "alt-rotor",
             "category": "crafting2",
             "time": 20,
@@ -645,7 +645,7 @@
             "product": ["rotor", 3]
         },
         {
-            "name": "Modular Frame",
+            "name": "模組框架",
             "key_name": "modular-frame",
             "category": "crafting2",
             "time": 15,
@@ -656,7 +656,7 @@
             "product": ["modular-frame", 1]
         },
         {
-            "name": "Alternate: Modular Frame",
+            "name": "替代:模組框架",
             "key_name": "alt-modular-frame",
             "category": "crafting2",
             "time": 30,
@@ -667,7 +667,7 @@
             "product": ["modular-frame", 3]
         },
         {
-            "name": "Encased Industrial Beam",
+            "name": "強化鋼梁",
             "key_name": "encased-industrial-beam",
             "category": "crafting2",
             "time": 15,
@@ -678,7 +678,7 @@
             "product": ["encased-industrial-beam", 1]
         },
         {
-            "name": "Alternate: Encased Industrial Beam",
+            "name": "替代:強化鋼梁",
             "key_name": "alt-encased-industrial-beam",
             "category": "crafting2",
             "time": 30,
@@ -689,7 +689,7 @@
             "product": ["encased-industrial-beam", 3]
         },
         {
-            "name": "Stator",
+            "name": "定子",
             "key_name": "stator",
             "category": "crafting2",
             "time": 10,
@@ -700,7 +700,7 @@
             "product": ["stator", 1]
         },
         {
-            "name": "Alternate: Stator",
+            "name": "替代:定子",
             "key_name": "alt-stator",
             "category": "crafting2",
             "time": 20,
@@ -711,7 +711,7 @@
             "product": ["stator", 3]
         },
         {
-            "name": "Motor",
+            "name": "馬達",
             "key_name": "motor",
             "category": "crafting2",
             "time": 12,
@@ -722,7 +722,7 @@
             "product": ["motor", 1]
         },
         {
-            "name": "Circuit Board",
+            "name": "電路板",
             "key_name": "circuit-board",
             "category": "crafting2",
             "time": 12,
@@ -733,7 +733,7 @@
             "product": ["circuit-board", 1]
         },
         {
-            "name": "Alternate: Circuit Board",
+            "name": "替代:電路板",
             "key_name": "alt-circuit-board",
             "category": "crafting2",
             "time": 24,
@@ -744,7 +744,7 @@
             "product": ["circuit-board", 3]
         },
         {
-            "name": "Alternate: Quickwire Circuit Board",
+            "name": "替代:快速線電路板",
             "key_name": "alt-quickwire-circuit-board",
             "category": "crafting2",
             "time": 24,
@@ -755,7 +755,7 @@
             "product": ["circuit-board", 3]
         },
         {
-            "name": "Plastic",
+            "name": "塑膠",
             "key_name": "plastic",
             "category": "refining",
             "time": 8,
@@ -765,7 +765,7 @@
             "product": ["plastic", 3]
         },
         {
-            "name": "Fuel",
+            "name": "燃料",
             "key_name": "fuel",
             "category": "refining",
             "time": 8,
@@ -775,7 +775,7 @@
             "product": ["fuel", 5]
         },
         {
-            "name": "Rubber",
+            "name": "橡膠",
             "key_name": "rubber",
             "category": "refining",
             "time": 8,
@@ -785,7 +785,7 @@
             "product": ["rubber", 4]
         },
         {
-            "name": "Heavy Modular Frame",
+            "name": "重型模組框架",
             "key_name": "heavy-modular-frame",
             "category": "crafting3",
             "time": 30,
@@ -798,7 +798,7 @@
             "product": ["heavy-modular-frame", 1]
         },
         {
-            "name": "Alternate: Heavy Modular Frame",
+            "name": "替代:重型模組框架",
             "key_name": "alt-heavy-modular-frame",
             "category": "crafting3",
             "time": 64,
@@ -811,7 +811,7 @@
             "product": ["heavy-modular-frame", 3]
         },
         {
-            "name": "Computer",
+            "name": "電腦",
             "key_name": "computer",
             "category": "crafting3",
             "time": 32,
@@ -824,7 +824,7 @@
             "product": ["computer", 1]
         },
         {
-            "name": "Alternate: Quickwire Computer",
+            "name": "替代:快速線電腦",
             "key_name": "alt-computer",
             "category": "crafting3",
             "time": 64,
@@ -836,7 +836,7 @@
             "product": ["computer", 3]
         },
         {
-            "name": "Caterium Ingot",
+            "name": "鎧錠",
             "key_name": "caterium-ingot",
             "category": "smelting1",
             "time": 4,
@@ -846,7 +846,7 @@
             "product": ["caterium-ingot", 1]
         },
         {
-            "name": "Quickwire",
+            "name": "快速線",
             "key_name": "quickwire",
             "category": "crafting1",
             "time": 4,
@@ -856,7 +856,7 @@
             "product": ["quickwire", 4]
         },
         {
-            "name": "Alternate: Quickwire",
+            "name": "替代:快速線",
             "key_name": "alt-quickwire",
             "category": "crafting2",
             "time": 8,
@@ -867,7 +867,7 @@
             "product": ["quickwire", 12]
         },
         {
-            "name": "Supercomputer",
+            "name": "超級電腦",
             "key_name": "supercomputer",
             "category": "crafting3",
             "time": 32,
@@ -880,7 +880,7 @@
             "product": ["supercomputer", 1]
         },
         {
-            "name": "High-Speed Connector",
+            "name": "高速連接器",
             "key_name": "high-speed-connector",
             "category": "crafting3",
             "time": 24,
@@ -892,7 +892,7 @@
             "product": ["high-speed-connector", 1]
         },
         {
-            "name": "A.I. Limiter",
+            "name": "AI限制器",
             "key_name": "ai-limiter",
             "category": "crafting2",
             "time": 12,
@@ -903,7 +903,7 @@
             "product": ["ai-limiter", 1]
         },
         {
-            "name": "Fabric",
+            "name": "布料",
             "key_name": "fabric",
             "category": "crafting2",
             "time": 4,
@@ -914,7 +914,7 @@
             "product": ["fabric", 1]
         },
         {
-            "name": "Filter",
+            "name": "濾材",
             "key_name": "filter",
             "category": "crafting3",
             "time": 8,
