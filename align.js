@@ -28,9 +28,9 @@ let displayRates = new Map([
 ])
 
 export let longRateNames = new Map([
-    ["s", "second"],
-    ["m", "minute"],
-    ["h", "hour"],
+    ["s", "秒"],
+    ["m", "分"],
+    ["h", "時"],
 ])
 
 export class Formatter {

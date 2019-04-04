@@ -64,7 +64,7 @@ export class BuildTarget {
         element.append("button")
             .classed("targetButton ui", true)
             .text("x")
-            .attr("title", "Remove this item.")
+            .attr("title", "移除這個產物")
             .on("click", removeHandler(this))
         this.element = element.node()
 
@@ -93,7 +93,7 @@ export class BuildTarget {
 
         this.buildingLabel = element.append("label")
             .classed(SELECTED_INPUT, true)
-            .text(" Buildings: ")
+            .text("生產建築:")
             .node()
 
         this.buildingInput = element.append("input")
@@ -101,7 +101,7 @@ export class BuildTarget {
             .attr("type", "text")
             .attr("value", 1)
             .attr("size", 3)
-            .attr("title", "Enter a value to specify the number of buildings. The rate will be determined based on the number of items a single building can make.")
+            .attr("title", "輸入指定生產建築量，產物量會隨之變動")
             .node()
 
         this.rateLabel = element.append("label")
@@ -113,11 +113,11 @@ export class BuildTarget {
             .attr("type", "text")
             .attr("value", "")
             .attr("size", 5)
-            .attr("title", "Enter a value to specify the rate. The number of buildings will be determined based on the rate.")
+            .attr("title", "輸入指定產物量，生產建築量會隨之變動")
             .node()
     }
     setRateLabel() {
-        this.rateLabel.textContent = " Items/" + spec.format.longRate + ": "
+        this.rateLabel.textContent = " 產物/" + spec.format.longRate + ": "
     }
     getRate() {
         this.setRateLabel()

@@ -43,11 +43,11 @@ let displayedItems = []
 
 export function displayItems(spec, totals, ignore) {
     let headers = [
-        new Header("items/" + spec.format.rateName, 2),
-        new Header("belts", 2),
-        new Header("buildings", 2),
-        new Header("overclock", 1),
-        new Header("power", 1),
+        new Header("產品/" + spec.format.rateName, 2),
+        new Header("輸送帶", 2),
+        new Header("建築", 2),
+        new Header("超頻", 1),
+        new Header("耗電", 1),
     ]
     let totalCols = 0
     for (let header of headers) {
