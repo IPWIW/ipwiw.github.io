@@ -126,7 +126,7 @@ function renderRateOptions(settings) {
         .on("change", rateHandler)
     rateOption.append("label")
         .attr("for", d => d.rateName + "_rate")
-        .text(d => "items/" + d.longRateName)
+        .text(d => "產物/" + d.longRateName)
     rateOption.append("br")
 }
 
