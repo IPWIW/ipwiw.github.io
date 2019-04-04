@@ -53,9 +53,9 @@ limitations under the License.-->
     </ul>
 
     <div class="tabs">
-        <button class="tab_button" id="graph_button" onclick="handlers.clickTab('graph')">Visualize</button>
-        <button class="tab_button" id="totals_button" onclick="handlers.clickTab('totals')">Items</button>
-        <button class="tab_button" id="settings_button" onclick="handlers.clickTab('settings')">Settings</button>
+        <button class="tab_button" id="graph_button" onclick="handlers.clickTab('graph')">示意樹狀圖</button>
+        <button class="tab_button" id="totals_button" onclick="handlers.clickTab('totals')">物品列表</button>
+        <button class="tab_button" id="settings_button" onclick="handlers.clickTab('settings')">設定</button>
         <button class="tab_button" id="about_button" onclick="handlers.clickTab('about')">About</button>
     </div>
 
@@ -69,11 +69,11 @@ limitations under the License.-->
         <tbody></tbody>
         <tfoot>
             <tr>
-                <td class="right-align power-label"><b>total average power: </b></td>
+                <td class="right-align power-label"><b>平均用電量: </b></td>
                 <td class="right-align pad"><tt></tt></td>
             </tr>
             <tr>
-                <td class="right-align power-label"><b>total peak power: </b></td>
+                <td class="right-align power-label"><b>最高用電量: </b></td>
                 <td class="right-align pad"><tt></tt></td>
             </tr>
         </tfoot>
@@ -83,35 +83,35 @@ limitations under the License.-->
     <div id="settings_tab" class="tab">
         <table id="settings">
         <tr class="setting-section">
-        <td colspan="2"><span>Display</span><hr></td>
+        <td colspan="2"><span>顯示</span><hr></td>
         </tr>
 
             <tr class="setting-row">
-            <td class="setting-label top">Display rates as:</td>
+            <td class="setting-label top">產率顯示方式:</td>
             <td><form id="display_rate"></form></td>
             </tr>
 
             <tr class="setting-row">
-            <td class="setting-label">Rate precision:</td>
+            <td class="setting-label">產率精度:</td>
             <td><input id="rprec" class="prec" type="number" value="3" min="0" onchange="handlers.changeRatePrecision(event)"></td>
             </tr>
 
             <tr class="setting-row">
-            <td class="setting-label">Count precision:</td>
+            <td class="setting-label">數量精度:</td>
             <td><input id="cprec" class="prec" type="number" value="1" min="0" onchange="handlers.changeCountPrecision(event)"></td>
             </tr>
 
         <tr class="setting-section">
-        <td colspan="2"><span>Factory</span><hr></td>
+        <td colspan="2"><span>工廠</span><hr></td>
         </tr>
 
             <tr class="setting-row">
-            <td class="setting-label">Belt:</td>
+            <td class="setting-label">輸送帶:</td>
             <td><span id="belt_selector"></span></td>
             </tr>
 
         <tr class="setting-section">
-        <td colspan="2"><span>Recipes</span><hr></td>
+        <td colspan="2"><span>配方替換</span><hr></td>
         </tr>
 
             <tr>
@@ -119,7 +119,7 @@ limitations under the License.-->
             </tr>
 
         <tr class="setting-section">
-        <td colspan="2"><span>Resources</span><hr></td>
+        <td colspan="2"><span>資源點</span><hr></td>
         </tr>
 
             <tr>

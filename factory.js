@@ -24,9 +24,9 @@ const DEFAULT_ITEM_KEY = "supercomputer"
 let minerCategories = new Set(["mineral", "oil"])
 
 export let resourcePurities = [
-    {key: "0", name: "Impure", factor: half},
-    {key: "1", name: "Normal", factor: one},
-    {key: "2", name: "Pure", factor: Rational.from_float(2)},
+    {key: "0", name: "劣", factor: half},
+    {key: "1", name: "一般", factor: one},
+    {key: "2", name: "純", factor: Rational.from_float(2)},
 ]
 
 export let DEFAULT_PURITY = resourcePurities[1]
